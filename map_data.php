@@ -8,7 +8,7 @@ echo("opening Agencies.kml...");
 // Storing the kml data we generate
 $store_data = fopen("Agencies.kml", "w+");
 
-echo("OK.")
+echo("OK.");
 
 // KML header info
 $header = '<?xml version="1.0" encoding="UTF-8"?>
