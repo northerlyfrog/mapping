@@ -223,25 +223,25 @@ $header = '<?xml version="1.0" encoding="UTF-8"?>
         <name><![CDATA['. $row['name']. ']]></name>
         <snippet></snippet>
         <description></description>
-        <styleUrl>#Style-' . $row['parser_id'] . '</styleUrl>
+        <styleUrl>#Style-' . $row['parser_id'] . ' </styleUrl>
         <ExtendedData>
             <Data name="Agency ID">
-                <value><![CDATA['. $row['id']. ']]></value>
+                <value><![CDATA['. $row['id']. ' ]]></value>
             </Data>
             <Data name="Parser">
-                <value><![CDATA[' . $row['parser_args'] . ']]></value>
+                <value><![CDATA[ ' . $row['parser_args']  . ' ]]></value>
             </Data>
             <Data name="Status">
-                <value><![CDATA[' . $row['status'] . ']]></value>
+                <value><![CDATA[' . $row['status'] . ' ]]></value>
             </Data>
             <Data name="Created">
-            	<value><![CDATA[' . $row['created'] . ']]></value>
+            	<value><![CDATA[' . $row['created'] . ' ]]></value>
             </Data>
             <Data name="Latitude">
-                <value><![CDATA['. $row['lat'] . ']]></value>
+                <value><![CDATA['. $row['lat'] . ' ]]></value>
             </Data>
             <Data name="Longitude">
-                <value><![CDATA[' . $row['lon'] . ']]></value>
+                <value><![CDATA[' . $row['lon'] . ' ]]></value>
             </Data>
         </ExtendedData>
         <Point>
